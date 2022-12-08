@@ -1,8 +1,9 @@
 name: Generate and Publish Documentation
 
 on:
-  push:
-    branches: [ main ]
+  workflow_dispatch:
+  #push:
+  #  branches: [ main ]
   
 jobs:
   documentation:
